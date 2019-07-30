@@ -123,7 +123,7 @@ echo -e "$barra"
 echo -e " $(source trans -b pt:${id} "INICIANDO CONFIGURACAO")"
 echo -e "$barra"
 echo -e "" > /etc/payloads
-#AÒadir Host Squid
+#A√±adir Host Squid
 payload="/etc/payloads"
 echo -e "" > /etc/payloads
 echo -e " ${txt[219]}"
@@ -411,14 +411,14 @@ VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
 IPTABLES='/etc/iptables/iptables.rules'
 SYSCTL='/etc/sysctl.conf'
  [[ "$VERSION_ID" != 'VERSION_ID="7"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="8"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="9"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="14.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="16.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="17.10"' ]] && {
- echo " Sua vers„o do Debian / Ubuntu n„o È suportada."
+ echo " Sua vers√£o do Debian / Ubuntu n√£o √© suportada."
  while [[ $CONTINUE != @(y|Y|s|S|n|N) ]]; do
  read -p "Continuar ? [y/n]: " -e CONTINUE
  done
  [[ "$CONTINUE" = @(n|N) ]] && return 2
  }
 else
-echo -e "$barra\n\033[1;33m $(source trans -b pt:${id} "Parece que vocÍ n„o est· executando este instalador em um sistema Debian ou Ubuntu")\n$barra"
+echo -e "$barra\n\033[1;33m $(source trans -b pt:${id} "Parece que voc√™ n√£o est√° executando este instalador em um sistema Debian ou Ubuntu")\n$barra"
 return 1
 fi
 #Pega Interface
@@ -456,7 +456,7 @@ coleta_variaveis () {
 		read -p " Public IP address / hostname: " -e PUBLICIP
 	fi
 	echo -e "$barra\n \033[1;31m$(source trans -b es:${id} "Elegir el tipo de protocolo para") OPENVPN"
-	echo -e " \033[1;31m$(source trans -b pt:${id} "A menos que o UDP esteja bloqueado, vocÍ n„o deve usar o TCP (mais lento)")\n$barra"
+	echo -e " \033[1;31m$(source trans -b pt:${id} "A menos que o UDP esteja bloqueado, voc√™ n√£o deve usar o TCP (mais lento)")\n$barra"
 	#PROTOCOLO
 	while [[ $PROTOCOL != @(UDP|TCP) ]]; do
 	read -p " Protocol [UDP/TCP]: " -e -i TCP PROTOCOL
@@ -505,8 +505,8 @@ coleta_variaveis () {
 	echo -e "$barra"
 	}
 parametros_iniciais # BREVE VERIFICACAO
-coleta_variaveis # COLETA VARIAVEIS PARA INSTALA«√O
-add_repo # ATUALIZA REPOSIT”RIO OPENVPN E INSTALA OPENVPN
+coleta_variaveis # COLETA VARIAVEIS PARA INSTALA√á√ÉO
+add_repo # ATUALIZA REPOSIT√ìRIO OPENVPN E INSTALA OPENVPN
 # Cria Diretorio
 [[ ! -d /etc/openvpn ]] && mkdir /etc/openvpn
 # Install openvpn
@@ -1145,7 +1145,7 @@ if [ -d '/usr/local/ddos' ]; then
 else
 	mkdir /usr/local/ddos
 fi
-wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-MANAGER-MOD/master/DDOS/ddos.conf -o /dev/null
+wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/DDOS/ddos.conf -o /dev/null
 wget -q -O /usr/local/ddos/LICENSE http://www.inetbase.com/scripts/ddos/LICENSE -o /dev/null
 wget -q -O /usr/local/ddos/ignore.ip.list http://www.inetbase.com/scripts/ddos/ignore.ip.list -o /dev/null
 wget -q -O /usr/local/ddos/ddos.sh http://www.inetbase.com/scripts/ddos/ddos.sh -o /dev/null
