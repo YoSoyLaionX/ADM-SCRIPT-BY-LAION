@@ -143,7 +143,7 @@ unset fail2_ban && fail2_ban=$(dpkg -l | grep fail2ban | grep ii)
 [[ -e ./vencidos ]] && __vencidos="\033[1;31m$(cat ./vencidos)" || __vencidos="\033[1;31m0"
 [[ "$(ps x | grep "ultimatebot" | grep -v "grep")" != "" ]] && bot="$_on" || bot="$_off"
 [[ ! -e /etc/adm-lite/versao_script ]] && echo 1 > /etc/adm-lite/versao_script
-P_SERVER="https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-MANAGER-MOD/master"
+P_SERVER="https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master"
 v1=$(curl -sSL "${P_SERVER}/versaoatt")
 v2=$(cat /etc/adm-lite/versao_script)
 if [ -e /etc/squid/squid.conf ]; then
@@ -375,7 +375,7 @@ apt-get install gawk -y > /dev/null 2>&1
 [[ -e $_tmp4 ]] && rm $_tmp4
 rm $_dr && rm $_idioma
 cd /etc/adm-lite
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-MANAGER-MOD/master/IDIOMA_VPS/$1/idioma
+wget https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/IDIOMA_VPS/$1/idioma
 unset txt
 touch $HOME/fim
 exit 0
