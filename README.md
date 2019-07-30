@@ -12,7 +12,7 @@ Manager Script
 
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/instala.sh; chmod +x instala.sh; ./instala.sh
 
-================================================================================
+==============================================================================
 
 *SIN MINERIA!
 
@@ -24,7 +24,7 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/Ne
 
 *ARCHIVOS LIBERADOS (DECENCRIPTADOS)
 
-================================================================================
+==============================================================================
 
 ☆ https://t.me/ConectandoCalidad ☆
 =================================================
