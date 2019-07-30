@@ -14,23 +14,17 @@
 * Soporta Debian 7 - 8 y 9 pero su mejor estabilidad es Debian 7
 * Se recomienda usar una distro nueva o formatiada.
 
-## Instacion
+## Instación
 
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/instala.sh; chmod +x instala.sh; ./instala.sh
 
-==============================================================================
+## Descripción
+```
+* SIN MINERIA! 
+* SIN KEYS! 
+* VERSION GRATUITA 
+* SIN VIRUS TROJANO (BOTNET) 
+* ARCHIVOS LIBERADOS (DECENCRIPTADOS)
+```
 
-*SIN MINERIA!
-
-*SIN KEYS!
-
-*VERSION GRATUITA!
-
-*SIN VIRUS TROJANO (BOTNET)
-
-*ARCHIVOS LIBERADOS (DECENCRIPTADOS)
-
-==============================================================================
-
-☆ https://t.me/ConectandoCalidad ☆
-=================================================
+**☆ https://t.me/ConectandoCalidad ☆**
