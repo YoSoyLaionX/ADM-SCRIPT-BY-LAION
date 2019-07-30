@@ -16,7 +16,7 @@
 
 ## Instación
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/instala.sh; chmod +x instala.sh; ./instala.sh
+> apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/instala.sh; chmod +x instala.sh; ./instala.sh
 
 ## Descripción
 ```
