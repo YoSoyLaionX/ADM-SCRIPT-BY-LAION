@@ -1,8 +1,8 @@
 ﻿# ADM-SCRIPT-MOD By Laion NetFree
 
-# ESTE PROYECTO ESTA ES CONSTANTE ACTUALIZACION.--
+# ESTE PROYECTO ESTA EN PROCESO DE RECONTRUCION.--
 
-![logo](https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/ADM_MANAGER_MOD.jpg)
+![logo](https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/ADM_SCRIPT_by_LAION.jpg)
 
 Manager Script
 
