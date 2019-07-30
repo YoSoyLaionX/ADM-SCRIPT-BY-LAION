@@ -14,10 +14,14 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/Ne
 
 ================================================================================
 
-*SIN MINERIA! 
-*SIN KEYS! 
-*VERSION GRATUITA 
-*SIN VIRUS TROJANO (BOTNET) 
+*SIN MINERIA!
+
+*SIN KEYS!
+
+*VERSION GRATUITA!
+
+*SIN VIRUS TROJANO (BOTNET)
+
 *ARCHIVOS LIBERADOS (DECENCRIPTADOS)
 
 ================================================================================
