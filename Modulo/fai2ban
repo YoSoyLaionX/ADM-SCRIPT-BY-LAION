@@ -73,7 +73,7 @@ if [[ "$fail2ban" = "s" || "$fail2ban" = "S" ]]; then
 echo -e "${cor[1]} =================================== \033[1;37m"
 fun_bar "apt-get install fail2ban -y"
 cd $HOME
-wget -O fail2ban https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-MANAGER-MOD/master/Install/fail2ban-0.9.4.tar.gz -o /dev/null
+wget -O fail2ban https://raw.githubusercontent.com/NetFreeLaion/ADM-SCRIPT-BY-LAION/master/Install/fail2ban-0.9.4.tar.gz -o /dev/null
 tar -xf $HOME/fail2ban
 cd $HOME/fail2ban-0.9.4
 fun_bar "./setup.py install" 
